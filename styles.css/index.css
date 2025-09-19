@@ -1,16 +1,14 @@
 main {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+    max-width: 840pxm;
 }
 
 aside {
-    width: 200px;
-    margin: 2rem;
-    border: 1px solid #333;
-    padding: 5px;
-    background-color: #f0f0f0;
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 0.2); /* 1 */
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
     text-align: center;
 }
 
@@ -19,8 +17,14 @@ aside img {
     height: auto;
 }
 
+main img {
+    width: 150px;
+    height: auto;
+}
+
+p {padding: 0;}
+
 footer {
-    margin-top: 2px;
-    border-top: 1px solid #333;
-    
+    margin-top: 15px;
+    border-top: 1px solid #000
 }
